@@ -1,0 +1,15 @@
+<div class="row"  *ngIf="foreCastData.length > 0">
+  <div class="card col-xs-3" *ngFor="let day of foreCastData">
+    <div class="card-body">
+      <h3 class="card-title" style="color:white">{{day.date | date}}</h3><hr>
+      <img src="{{day.icon}}" width="30%" height="30%" style="margin-left:30%"><br>
+      <p class="card-text">High Temperature: {{day.temperature.High | number: '1.1'}}<span>&deg;C</span></p>
+      <p class="card-text">Low Temperature: {{day.temperature.Low | number: '1.1'}}<span>&deg;C</span></p>
+      <p class="card-text">Humidity: {{day.humidity}} %</p>
+    </div>
+  </div>
+</div>
+
+<div class="errorMessage" *ngIf="errorMessage!==''">
+    {{ errorMessage }}
+</div>

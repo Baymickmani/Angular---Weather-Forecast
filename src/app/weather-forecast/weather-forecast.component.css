@@ -1,0 +1,31 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  height: 30%;
+  margin-left: 2%;
+  background-image: linear-gradient(red,yellow);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-text {
+  padding: 3px;
+}
+
+.card-title, .card-title {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.errorMessage {
+  font-weight: 600;
+  color: red;
+}
+
+.row {
+  padding-left: 36px !important;
+  font-weight: 600;
+}

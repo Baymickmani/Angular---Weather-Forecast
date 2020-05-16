@@ -1,0 +1,18 @@
+.form-group {
+  border: 1px solid black;
+  width: 40%;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 3%;
+}
+.form-control{
+  font-weight: bold;
+}
+.errorMessage{
+  color: red;
+  font-weight: 600;
+}
+.cityFound{
+  color: green;
+  font-weight: 600;
+}

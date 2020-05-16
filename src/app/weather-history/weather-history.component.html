@@ -1,0 +1,6 @@
+<div *ngIf="chart" class="canvas">
+  <canvas #canvas id="canvas">{{ chart }}</canvas>
+</div>
+<div *ngIf="errorMessage">
+  <p class="errorMessage">{{errorMessage}}</p>
+</div>
